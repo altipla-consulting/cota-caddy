@@ -1,6 +1,6 @@
 FROM caddy:2.8.4-builder AS builder
 
-RUN xcaddy build --with github.com/invzhi/caddy-docker-upstreams
+RUN xcaddy build --with github.com/altipla-consulting/caddy-cota-upstreams
 
 FROM caddy:2.8.4
 
